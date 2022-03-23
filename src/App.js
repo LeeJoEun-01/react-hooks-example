@@ -5,9 +5,12 @@ import Example2 from './components/Example2';
 import Example3 from './components/Example3';
 import Example4 from './components/Example4';
 import Example5 from './components/Example5';
+import Example6 from './components/Example6';
+import Example7 from './components/Example7';
 import useWindowWidth from './hooks/useWindowWidth';
 import withHasMounted from './hocs/withHasMounted';
 import useHasMounted from './hooks/useHasMounted';
+import Example8 from './components/Example8';
 
 function App({ hasMounted }) {
   const width = useWindowWidth();
@@ -25,6 +28,9 @@ function App({ hasMounted }) {
         <Example4 />
         <Example5 /> */}
         {width}
+        <Example6 />
+        <Example7 />
+        <Example8 />
       </header>
     </div>
   );
